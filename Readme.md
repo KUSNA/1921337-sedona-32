@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Константин Коновалов](https://up.htmlacademy.ru/htmlcss/32/user/1921337).
-* Наставник: [Наталья Налимова] (https://htmlacademy.ru/profile/tuetfe)
+* Наставник: [Наталья Налимова](https://htmlacademy.ru/profile/tuetfe).
 
 ---
 
