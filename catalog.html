@@ -3,6 +3,7 @@
  <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="css/styles.css">
  </head>
 
  <body>
@@ -128,13 +129,14 @@
                     </button>
                 </fieldset>
     
-              <button class="button" type="submit">Применить</button>
-              <button class="button-two" type="reset">Сбросить</button>
+              <button class="button button-submit" type="submit">Применить</button>
+              <button class="button button-two" type="reset">Сбросить</button>
             </form>
         </section>
     </main>
 
     <section class="search-catalog-block">
+        <p class="hostel-block">Найдено гостиниц: 38</p>
         <form class="sorting-type">
             <label class="visually-hidden" for="sorting">Сортировка</label>
             <select class="select-control" id="sorting" name="sorting">
@@ -161,8 +163,8 @@
                         <h3 class="product-card-title">Amara Resort & Spa</h3>
                     </a>
                     <p class="info">
-                        <span class="additional Information">Гостиница</span>
-                        <span class="additional Information">От 4000 ₽</span>
+                        <span class="additional-information">Гостиница</span>
+                        <span class="additional-information">От 4000 ₽</span>
                         <a class="rating-star">
                             <img src="img/stars-four.svg" alt="Рейтинг" width="91" height="17">
                         </a>
@@ -177,8 +179,8 @@
                         <h3 class="product-card-title">Desert Quail Inn</h3>
                     </a>
                     <p class="info">
-                        <span class="additional Information">Мотель</span>
-                        <span class="additional Information">От 3000 ₽</span>
+                        <span class="additional-information">Мотель</span>
+                        <span class="additional-information">От 3000 ₽</span>
                         <a class="rating-star">
                             <img src="img/stars-free.svg" alt="Рейтинг" width="68" height="17">
                         </a>
@@ -193,14 +195,14 @@
                         <h3 class="product-card-title">Villas at Poco Diablo</h3>
                     </a>
                     <p class="info">
-                        <span class="additional Information">Апартаменты</span>
-                        <span class="additional Information">От 2000 ₽</span>
+                        <span class="additional-information">Апартаменты</span>
+                        <span class="additional-information">От 2000 ₽</span>
                         <a class="rating-star">
                             <img src="img/stars-two.svg" alt="Рейтинг" width="43" height="17">
                         </a>
                     </p>
                     <a class="detail-card-button button" href="#">подробнее</a>
-                    <a class="product-card-button-select button" href="#">В избранное</a>
+                    <a class="product-card-button button" href="#">В избранное</a>
                     <a class="rating-card-button button" href="#">Рейтинг: 9,2</a>
                 </li>
                 <li class="product-card">
@@ -209,8 +211,8 @@
                         <h3 class="product-card-title">GreenTree Inn</h3>
                     </a>
                     <p class="info">
-                        <span class="additional Information">Гостиница</span>
-                        <span class="additional Information">От 3000 ₽</span>
+                        <span class="additional-information">Гостиница</span>
+                        <span class="additional-information">От 3000 ₽</span>
                         <a class="rating-star">
                             <img src="img/stars-two.svg" alt="Рейтинг" width="43" height="17">
                         </a>
@@ -248,7 +250,9 @@
                 </li>
             </ul>
             <form class="pagination-block">
-                <label class="visually-hidden" for="page">Гостиниц на странице:</label>
+                <label class="visually-hidden" for="page">
+                    <p class="pagination-block-page">Гостиниц на странице:</p>
+                </label>
                 <select class="select-controls" id="page" name="page">
                     <option value="4 hotels">4</option>
                 </select>
